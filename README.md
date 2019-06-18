@@ -1,6 +1,6 @@
 # TrafficSimulation
 
-![graph.png](https://github.com/SVJayanthi/TrafficSimulation/blob/master/output/NagelSchreckenberTraffic2.png)
+![graph.png](https://github.com/SVJayanthi/TrafficSimulation/blob/master/output/NagelSchreckenberTraffic3.png)
 
 ## Author
 Sravan Jayanthi
