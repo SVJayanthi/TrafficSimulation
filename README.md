@@ -32,7 +32,7 @@ Sample code of updating speed of a car facing traffic.
                 positionArray[i] = positionArray[i] - MSpaces;
             }
 
-## Conclusions
+## Insights
 The results of the simulations in give insight into why traffic develops and how it propagates through a highway. The random behavior of the driver to slow down has a direct chain effect on the motion of all the other drivers on the highway. Thus, the darker areas demonstrate areas of high traffic that sees many cars forced to slow down to prevent collision. The traffic eventually dissipates at the area of formation but the jam continues on going towards the back of the highway. The traffic propagates in the reverse direction of motion leading to many more cars getting stuck. However, it is the probability that the car will not slow down that allows the other cars to escape the traffic. 
 
 ## License
