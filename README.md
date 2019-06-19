@@ -8,6 +8,12 @@ Sravan Jayanthi
 ## Nagel-Schrekenberg
 The famous Nagel-Schreckenberg model, known for its use of Original Monte Carlo to model random driver behavior in traffic, was recreated using Java to gain a greater understanding of the application of Monte Carlo theory. The simulation was setup with a random variable that would influence the motion of driver behavior. Eventually, the distribution of cars deviates from the starting conditions due to the influence of the random variable. The motion of the cars are governed by four rules: each car seeks to increase speed, their speed cannot exceed the speed limit, they must slow down if there is a car ahead, and the probability p of the car slowing down. In each time step, the cars operate on these rules and are repeated until the simulation is complete. The final rule, the reduction of speed randomly, is where driver behavior will be simulated in causing potential traffic jams.
 
+### Rules
+1. Cars experience constant acceleration until velocity limit is reached
+2. If the distance between a car and the vehicle ahead of it is smaller than the velocity, the velocity is reduced to avoid crashing
+3. The speed of the cars is randomly reduced, representing the random variable that will simulate potential traffic jams
+4. The cars are moved forward the number of cells equivalent to their velocity.
+
 ## Implementation
 
 ### Run the application:
